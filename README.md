@@ -2,13 +2,13 @@
 
 Comparative Study of Deep Learning Algorithms for the Detection of Facial Paralysis
 
-#ABSTRACT
+# ABSTRACT
 Statistical analysis has shown a significant increase in the rate of brain strokes in recent times. But the time required to carry out the conventional methods to detect brain stroke on a patient requires both trained personnel and time. Any discrepancy in the process might also lead to fatal consequences. One of the most common symptoms of stroke includes facial paralysis. Currently, there is a lack of efficient models for detecting facial paralysis. To help make the stroke detection technique less formidable to at least a certain extent, this report presents a comparative analysis of deep learning algorithms for the efficient detection of facial paralysis. We have compared different pre-trained models to find the best suitable for detecting facial paralysis. In our research, we successfully ran tests on datasets consisting of facial images. We were able to attain the highest training accuracy and validation accuracy using the VGG-16 deep learning model, which was 99.67% and 99.37%, respectively.
 
-#INTRODUCTION
+# INTRODUCTION
 In Bangladesh itself, stroke is the third leading cause of death, where compared to 2015, the death toll due to stroke increased by 13.7% in 2020. [1] Half of the stroke survivors face chronic disability. Damage caused by stroke may reduce if diagnosed early. One of the most common symptoms of stroke is facial paralysis. The main goal of our project is to find out which deep learning algorithm, among the three we compared, is the best for the detection of facial paralysis. We compared a total of three different deep learning models. As datasets for creating the models, we used images that consist of images of both stroke patients’ faces and normal faces. The three deep learning models used were VGG16, InceptionV3, and ResNet50. All three of these models showed the potential to be efficient for the detection of facial paralysis. It seems VGG16 is more effective in certain aspects compared to the other two deep learning models.
 
-#RELATED WORKS
+# RELATED WORKS
 In the paper “Facial Paralysis Detection on Images Using Key Point Analysis”, a method used to detect facial paralysis from the photograph of a person’s face has been proposed [2]. The design of the system included three modules- facial landmark extraction, facial measure computation, and facial paralysis classification. The facial measure module aimed to identify asymmetry levels within the face using facial landmarks, and the output label was provided by a binary classifier based on a multi-layer perceptron approach. The tests yielded outstanding classification results on images.
        A novel approach for the quantitative assessment of facial paralysis that deals with classification problems for FP type and degree of severity has been introduced in the paper titled “Efficient quantitative assessment of facial paralysis using iris segmentation and active contour-based key points detection with hybrid classifier”. An algorithm that extracts the human iris, and detects facial landmarks, and a hybrid-approach combining the rule-based and machine learning algorithm to analyze facial paralysis using the captured images is presented here [3].
        The paper titled “Application of Machine Learning for Facial Stroke Detection” proposes a facial stroke recognition system that assists patients in self-detection. Facial landmarks were tracked by an ensemble of regression tree methods (ERT). To classify stroke, the Support Vector Machine (SVM), Random Forest (RF), and Bayesian Classifier were used as classifiers. The results showed that the system could accurately and effectively distinguish stroke from facial images with accuracies of 100%, 95.45% and 100% respectively [4].
@@ -38,7 +38,7 @@ Ridha et al created a smart prediction system for detecting temporary facial par
 [21]
        A research team has built a cascaded encoder network structure to evaluate facial paralysis which explores the advantages of the facial semantic feature for facial spatial information extraction and then use that information to predict facial paralysis.  The first encoder is trained with the task of facial attribute semantic segmentation based on both normal face and paralysed face. The second encoder is trained with facial paralysis grading prediction task using paralysed facial images as training data. It can export facial paralysis features from the input facial images.  The accuracy, recall, confidence, and dice obtained from their model was 95.60%, 95.90%, 95.75%, 95.82% which was comparably better than the existing models [22,23] in the related areas.[24]
 
-#REFERENCE:
+# REFERENCE:
 
 [1]   "Stroke, heart disease top killers in Bangladesh", The Business Standard, 2021. [Online]. Available:
         https://www.tbsnews.net/bangladesh/health/stroke-heart-disease-top-killers-bangladesh-170065.
