@@ -1,0 +1,6 @@
+TEST SET
+TRAINING SET 
+VALIDATION SET
+
+https://drive.google.com/drive/folders/1ysewIj7ubFVhuY-3VDQ33x-6SvYunGY2?usp=sharing
+
