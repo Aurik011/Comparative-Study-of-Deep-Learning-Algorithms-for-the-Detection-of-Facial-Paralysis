@@ -3,7 +3,7 @@
 
 Comparative Study of Deep Learning Algorithms for the Detection of Facial Paralysis
 
-#Publication 
+# Publication 
 Syed Maaher Hossain, Zeeshan Jamal, Aurik Anjum Noshin and Mohammad Monirujjaman Khan, “Comparative Study of Deep Learning Algorithms for the Detection of Facial Paralysis,” 2022 IEEE 12th Annual Information Technology, Electronics and Mobile Communication Conference (IEEE IEMCON), 12-15 October, Vancouver, Canada. Scopus Indexed. Accepted and due for publication., 2022
 
 # ABSTRACT
